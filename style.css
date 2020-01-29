@@ -58,3 +58,8 @@ h1, h2, h3 {
   text-align: center;
   margin: 0 auto;
 }
+
+.footer-logos {
+  display: flex;
+  flex-direction: column;
+}
