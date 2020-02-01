@@ -54,10 +54,26 @@ h1, h2, h3 {
   display: none;
 }
 
+
+/*HERO*/
 .hero-box {
   text-align: center;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
+
+.hero-mobile__img {
+  width: 100%;
+}
+
+.hero-desk__img {
+  display: none;
+  width: 100%;
+}
+
+
+
 
 .footer-logos {
   display: flex;
