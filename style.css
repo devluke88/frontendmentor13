@@ -86,13 +86,14 @@ h1, h2, h3 {
 
 .pattern-bottom-mob {
   position: absolute;
-  top: 100px;
+  z-index: 0;
+  top: 810px;
   right: 0px;
 }
 
 .hero-box {
   z-index: 3;
-  padding-top: 6rem;
+  padding-top: 9rem;
 }
 
 .hr_desktop {
@@ -102,6 +103,35 @@ h1, h2, h3 {
 .hero-header1, 
 .hero-desc {
   color: #fff;
+}
+
+.hero-header1 {
+  font-size: 4.5rem;
+  line-height: 1em;
+  margin-bottom: 2rem;
+}
+
+.hero-desc {
+  font-size: 1.6rem;
+  line-height: 1.7em;
+  margin-bottom: 4rem;
+}
+
+.hero-button {
+  margin-bottom: 9.3rem;
+}
+
+.btn {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.2rem 2.9rem;
+  
+}
+
+.btn-default {
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 
