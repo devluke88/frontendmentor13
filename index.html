@@ -2,152 +2,94 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="media.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display|Karla:400,700&display=swap" rel="stylesheet">
-  <title>Frontend Mentor | Insure landing page</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet"> 
+  <title>Chef Select | Home</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 <!-- NAV -->
-  <nav class="navbar mw">
+  <nav class="navbar">
+    <div class="social-icons">
+      <a href="#" class="social-icon"><ion-icon name="logo-facebook"></ion-icon></a>
+      <a href="#" class="social-icon"><ion-icon name="logo-instagram"></ion-icon></a>
+      <a href="#" class="social-icon"><ion-icon name="mail"></ion-icon></a>
+    </div>
     <div class="logo">
-      <img src="images/logo.svg">
-    </div>
-    <div class="nav-burger">
-      <a href="#"><img src="images/icon-hamburger.svg"></a>
-    </div>
-    <ul class="nav-items">
-      <li class="nav-item"><a href="#" class="nav-link">How we work</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">Account</a></li>
-      <li class="nav-item"><a href="#" class="nav-link border-sq">View plans</a></li>
-    </ul>
-  </nav>
-  <div class="pattern">
-    <!-- HERO -->
-    <div class="hero-section">
-      <div class="hero-image-mob">
-       <img src="images/image-intro-mobile.jpg" class="hero-mobile__img">
-      </div>
-      <div class="pattern-top-mob">
-        <img src="images/bg-pattern-intro-left-mobile.svg">
-      </div>
-      <div class="pattern-bottom-mob">
-        <img src="images/bg-pattern-intro-right-mobile.svg">
-      </div>
-      <div class="hero-box mw">
-        <div class="hero-box__items">
-          <hr class="hr_desktop">
-          <h1 class="hero-header1">Humanizing your insurance.</h1>
-          <p class="hero-desc">
-            Get your life insurance coverage easier and faster. We blend our expertise 
-            and technology to help you find the plan that’s right for you. Ensure you 
-            and your loved ones are protected.
-          </p>
-          <div class="hero-button">
-            <a href="#" class="btn btn-default">View plans</a>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-    <!-- MAIN -->
-    <div class="main-section">
-      <div class="main-box mw">
-        <hr class="hr-main">
-        <h2 class="main-header2">We’re different</h2>
-        <div class="main-features">
-          <div class="main-feature">
-            <img src="images/icon-snappy-process.svg" class="main-images">
-            <h3 class="main-header3">Snappy Process</h3>
-            <p class="main-desc">
-              Our application process can be completed in minutes, not hours. Don’t get 
-              stuck filling in tedious forms.
-            </p>
-          </div>
-          <div class="main-feature">
-            <img src="images/icon-affordable-prices.svg" class="main-images">
-            <h3 class="main-header3">Affordable Prices</h3>
-            <p class="main-desc">
-              We don’t want you worrying about high monthly costs. Our prices may be low, 
-              but we still offer the best coverage possible.
-            </p>
-          </div>
-          <div class="main-feature">
-            <img src="images/icon-people-first.svg" class="main-images">
-            <h3 class="main-header3">People First</h3>
-            <p class="main-desc">
-              Our plans aren’t full of conditions and clauses to prevent payouts. We make 
-              sure you’re covered when you need it.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-<!-- FIND -->
-  <div class="find-out-section">
-    <div class="find-out">
-      <h2 class="find_header">Find out more about how we work</h2>
-      <div class="find-button">
-        <a href="#" class="btn btn-find">How we work</a>
-      </div>
-    </div>
-  </div>
-<!-- FOOTER -->
-  <footer class="footer">
-    <div class="footer-logos">
-      <div class="logo">
-        <img src="images/logo.svg">
-      </div>
-      <div class="social-icons">
-        <a href="#" class="social-icon"><ion-icon name="logo-facebook"></ion-icon></a>
-        <a href="#" class="social-icon"><ion-icon name="logo-twitter"></ion-icon></a>
-        <a href="#" class="social-icon"><ion-icon name="logo-pinterest"></ion-icon></a>
-        <a href="#" class="social-icon"><ion-icon name="logo-instagram"></ion-icon></a>
-      </div>
-    </div>
-    <hr>
-    <div class="footer-list">
-      <ul class="list-items">
-        <a href="#">Our company<li class="list-item first-item"></li></a>
-        <a href="#">How we work<li class="list-item"></li></a>
-        <a href="#">Why Insure?<li class="list-item"></li></a>
-        <a href="#">View plans<li class="list-item"></li></a>
-        <a href="#">Reviews<li class="list-item"></li></a>
-      </ul>
-      <ul class="list-items">
-        <a href="#">Help me<li class="list-item first-item"></li></a>
-        <a href="#">FAQ<li class="list-item"></li></a>
-        <a href="#">Terms of use<li class="list-item"></li></a>
-        <a href="#">Cookies<li class="list-item"></li></a>
-      </ul>
-      <ul class="list-items">
-        <a href="#">Contact<li class="list-item first-item"></li></a>
-        <a href="#">Sales<li class="list-item"></li></a>
-        <a href="#">Support<li class="list-item"></li></a>
-        <a href="#">Live chat<li class="list-item"></li></a>
-      </ul>
-      <ul class="list-items">
-        <a href="#">Others<li class="list-item first-item"></li></a>
-        <a href="#">Careers<li class="list-item"></li></a>
-        <a href="#">Press<li class="list-item"></li></a>
-        <a href="#">Licenses<li class="list-item"></li></a>
-      </ul>
+     <a href="index.html"><img src="images/logo-white.png" class="nav-logo"></a>
     </div>
     
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="http://www.lukenow.com">lukenow.com</a>.
+    <ul class="nav-items">
+      <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+<!-- HERO -->
+<div class="hero">
+  <h1 class="hero-h1">Chef Select</h1>
+  <p class="hero-desc">Food you will remember.</p>
+  <div class="hero-cta">
+    <a href="#" class="btn btn-white">See Menu</a>
+    <a href="#" class="btn btn-transparent">Contact</a>
+  </div>
+  <div class="hero-image">
+    <img src="images/hero-image.png" alt="Hero Image" class="hero-img">
+  </div>
+</div>
+
+<!-- MENU-INTRO-->
+<div class="menu">
+  <h2 class="menu-h2">Menu</h2>
+  <p class="menu-desc">Some description</p>
+  <div class="menu-box">
+    <div class="menu-box__card">
+      <div class="menu-image">
+        <img src="images/menu-starters.png" alt="Menu dish" class="menu-img">
+      </div>
+      <h3 class="menu-card-desc">Starter</h3>
     </div>
+    <div class="menu-box__card">
+      <div class="menu-image">
+        <img src="images/menu-mains.png" alt="Menu dish" class="menu-img">
+      </div>
+      <h3 class="menu-card-desc">Mains</h3>
+    </div>
+    <div class="menu-box__card">
+      <div class="menu-image">
+        <img src="images/menu-desserts.png" alt="Menu dish" class="menu-img">
+      </div>
+      <h3 class="menu-card-desc">Dessert</h3>
+    </div>
+  </div>
+  <div class="menu-cta">
+    <a href="#" class="btn btn-transparent">View More</a>
+  </div>
+</div>
+
+<!-- ABOUT-INTRO-->
+<div class="about">
+  <div class="about-box">
+    <h2 class="about-header2">About</h2>
+    <p class="about-desc">
+      Looking at the concept, Classic and Modern, aim to please all the people with more styles of cooking. From classic dishes and keeping them like that, or using just a modern style of cooking, until applying the whole concept style of cooking, Classic and Modern, bringing classic dishes to a modern view. 
+    </p>
+    <a href="#" class="btn btn-transparent">Read More</a>
+  </div>
+  <div class="about-image">
+    <img src="images/about-img.jpg" alt="Chef" class="image-chef">
+  </div>
+</div>
+ 
+<!-- FOOTER -->
+  <footer class="footer">
+
+      Coded by <a href="http://www.lukenow.com">lukenow.com</a>.
   </footer>
 
   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
